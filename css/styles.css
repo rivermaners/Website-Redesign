@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Georgia", serif;
+  color: #111;
+  background: white;
+  line-height: 1.6;
+}
+
+.footer {
+    padding: 2rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .footer-content {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .social-icons {
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    color: #00356b;
+    margin: 0 0.5rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+  }
+  
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color:#00356B
+}
+
+.logoimage img{
+    height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #00356b;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-links a.onpage {
+    border-bottom: 2px solid #00356B;
+    padding-bottom: 2px;
+  }
+
+.homepage h1{
+    font-size: 150px;
+    color: #00356B;
+    text-align: center;
+}
+
+.homepage p{
+    font-size: 30px;
+    max-width: 40%;
+    margin-left: 40px;
+}
+
+.border{
+    border-bottom: 3px solid #00356B;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.address-and-image {
+    display: flex;
+    align-items: center;
+}
+  
+.address-and-image h2 {
+    flex: 1;
+    font-size: 80px;
+    margin-left: 40px;
+    font-weight: 500;
+  }
+
+.address-and-image img {
+    max-width: 50%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right: 40px;
+}
+  
+.pub-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 2rem;
+}
+  
+.pub-section.reverse {
+    flex-direction: row-reverse;
+}
+  
+.pub-section img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+  
+.pub-text {
+    flex: 1;
+    font-size: 20px;
+    padding: 1rem;
+}
+  
+.pub-text h2 {
+    font-size: 36px;
+    color: #00356B;
+    margin-bottom: 1rem;
+}
+  
+.pub-text h1 {
+    font-size: 28px;
+    color: #555;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+  }
+  
+  .pub-text p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    font-size: 18px;
+  }
+
+  .application-form {
+    max-width: 700px;
+    margin: 0 auto 4rem auto;
+    padding: 2rem;
+    background: #f4f4f4;
+    border-radius: 8px;
+    font-size: 18px;
+  }
+
+  .apply-page h1 {
+  font-size: 28px;
+  color: #111;
+  font-weight: normal;
+  max-width: 70%;
+  margin: 1.5rem auto;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.apply-page h2 {
+  font-size: 36px;
+  color: #00356B;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+  
+  .application-form .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .application-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #00356B;
+  }
+  
+  .application-form input,
+  .application-form select,
+  .application-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+  }
+  
+  .application-form button {
+    padding: 0.75rem 1.5rem;
+    background-color: #00356B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .application-form button:hover {
+    background-color: #002855;
+  }
+  
